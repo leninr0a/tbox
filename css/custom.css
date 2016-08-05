@@ -63,7 +63,7 @@ header{
 }
 
 #searchbox{
-    width:90%;
+    width:80%;
     padding:10px 12px;
     border-radius:8px;
     border-color: beige;
@@ -74,6 +74,19 @@ header{
     text-transform: uppercase;
     font-weight: 100;
     font-stretch: expanded;
+    margin-left:0;
+}
+
+#selectbox{
+    width:10%;
+    padding:10px 10px;
+    text-align: center;
+    border-radius:8px;
+    border:1px solid #efefed;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-right:0;
 }
 
 .search-icon{
