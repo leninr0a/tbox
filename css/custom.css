@@ -1,0 +1,420 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family:'Helvetica';
+}
+
+/* === HEADER === */
+.title{
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.title .red{
+    color:#ee202d;
+}
+
+header{
+    background: url('http://img1.liveinternet.ru/images/attach/c/3/77/263/77263621_3509097_RVseypfZ.png');
+    border-top:3px solid black;
+    padding-top:10px;
+    border-bottom:1px solid gray;
+    padding-bottom: 1px;
+    
+}
+
+.pre-header span a{
+    font-weight: bold;
+    color:#000;
+    
+}
+
+.fa.fa-facebook,
+.fa.fa-twitter,
+.fa.fa-instagram{
+    font-size:2em;
+    
+    
+}
+
+.fa.fa-facebook:hover,
+.fa.fa-twitter:hover,
+.fa.fa-instagram:hover{
+    color:#ee202d;
+}
+
+.sign-in,.register,.bar{
+    font-family: 'Oswald';
+    font-size:1.4em;
+    text-transform: uppercase;
+    margin:0 2.5px;
+}
+
+.register{
+    color:#ee202d;
+}
+
+#searchbox{
+    width:90%;
+    padding:10px 12px;
+    border-radius:8px;
+    border-color: beige;
+    box-sizing: border-box;
+    background: #fff;
+    border:1px solid #efefed;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 100;
+    font-stretch: expanded;
+}
+
+.search-icon{
+    position:relative;
+    left:-30px;
+    color:#ee202d;
+}
+
+.logo-img{
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.logo-img img{
+    width: 200px;
+}
+
+.categories a,.categories a:hover, .categories a:visited{
+    color:#000;
+    text-decoration: none;
+}
+
+
+.categories .fa{
+    margin-left:5px;
+}
+
+.categories ul li{
+    display:inline-block;
+    list-style: none;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    margin: 10px 30px;
+    padding-bottom:15px;
+    font-size:1.2em;
+    border-bottom: 1px solid transparent;
+}
+
+
+.categories ul li:hover, .categories ul li.hovered{
+    border-bottom: 1px solid #ee202d;
+
+}
+
+
+/*========== POST- HEADER ==========*/
+
+.post-header{
+    background: #3f3f3f;
+    padding:10px;
+}
+
+.post-search{
+    
+    font-family:'Oswald';
+    text-transform: uppercase;
+    color:#fff;
+    
+}
+
+.input-state input{
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    margin-left:10px;
+    text-align: center;
+    color:#fff;
+    font-family: 'Oswald';
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+
+/*========= TOP-SEARCHES ==========*/
+
+.top-searches{
+    margin: 50px 0;
+
+    
+}
+
+.container-fluid.line-top{
+    padding:0 20px;
+}
+
+.top-searches .line-top{
+    border-top: 2px solid black;
+    background:#fff;
+}
+
+.section-product-title{
+    font-family: 'Oswald';
+    font-size:1.6em;
+    text-transform: uppercase;
+    position:relative;
+    top:-15px;
+    background-color: #fff;
+    padding:0 10px;
+}
+
+
+
+.product{
+    display:inline-block;
+    margin:2%;
+    
+}
+
+.product-info span{
+    display:block;
+}
+
+
+.product:hover .product-info, .product-info.hovered{
+    border: 1px solid #3f3f3f;
+    border-top:none;
+    background: #3f3f3f;
+    transition:.5s;
+    color:#fff;
+} 
+
+
+
+.product-info > i{
+    margin-top:4px;
+    display:block;
+}
+.product-info{
+    display:block;
+    border:1px solid transparent;
+    border-top:none;
+    color:#000;
+    background: transparent;
+    padding:10px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-radius: 0 0 7px 7px;
+    
+}
+
+.img-container{
+    height:200px;
+    display:inline-block;
+   
+  
+}
+
+.product .img-product{
+  width:250px;
+  height:200px;
+ object-fit: contain;
+
+}
+
+/*=========== MARKETS ================*/
+.markets{
+    padding:50px;
+background:url('../images/tile.jpg');
+    }
+
+.markets .line-top{
+    border-top:1px solid #ee202d;
+}
+.markets .section-product-title{
+    background:url('../images/tile.jpg');
+    color:#ee202d;
+}
+
+.markets .product:hover .product-info, .markets .product-info.hovered{
+    border: 1px solid #ee202d;
+    border-top:none;
+    background: #ee202d;
+    transition:.5s;
+    color:#fff;
+} 
+
+/*========== DEALS NEAR YOU ============*/
+.deals{
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#fff;
+    background:#3f3f3f;
+}
+
+.deals .line-top{
+    border-top:1px solid #fff;
+}
+.deals .section-product-title{
+    background: #3f3f3f;
+    color:#fff;
+}
+
+.deals .product-info{
+    color:#fff;
+}
+.deals .product:hover .product-info, .deals .product-info.hovered{
+    border: 1px solid #f3f3f3;
+    border-top:none;
+    background: #f3f3f3;
+    transition:.5s;
+    color:#000;
+} 
+
+/*============= FOOTER =============*/
+footer{
+    
+    background:url('../images/tile.jpg');
+}
+
+footer .container{
+    padding:70px 50px;
+}
+
+footer .footer-subtitle {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    margin-bottom:15px;
+    display: inline-block;
+    font-size:1.5em;
+    border-bottom: 1px solid #ee202d;
+}
+
+
+
+
+footer label, footer button{
+    font-family:'Oswald';
+    text-transform: uppercase;
+}
+
+footer .social{
+    display: table;
+    width:40px;
+    height:40px;
+    background:#ee202d;
+    color:#fff;
+    border-radius:50%;
+}
+
+footer .social .fa{
+    vertical-align: middle;
+    display:table-cell;
+    text-align: center;
+
+}
+
+
+
+footer button{
+    color: #fff;
+    background: #ee202d;
+    padding:10px 30px;
+    font-weight:100;
+  
+}
+
+
+/*==============================================================*/
+/*==================== PRODUCT.HTML =============================*/
+
+/*===== BREADCRUMB ===*/
+.breadcrumb{
+background:#fff;
+    font-family: 'Oswald';
+    padding-top:10px;
+    text-transform: uppercase;
+    font-size:1.4em;
+}
+
+.breadcrumb .fa{
+    color:#ee202d;
+}
+
+
+
+.product-detailed{
+    padding:0;
+    background:#3f3f3f;
+    font-family: 'Oswald';
+}
+.img-mini{
+    width:100%;
+    height:auto;
+}
+
+.product-detailed .container-fluid{
+    background: #fff;
+    padding:5px 50px 50px 10px;
+}
+
+.menu-options{
+    padding:50px;
+    background:#3f3f3f;
+    color:#fff;
+    font-weight:100;
+
+}
+
+
+.menu-options ul{
+    list-style: none;
+    margin-left:10px;
+}
+
+.title-options{
+    color:#ee202d;
+    text-transform: uppercase;
+}
+
+.product-detailed .store-information span{
+    display:block;
+}
+
+.product-detailed .fa.fa-location-arrow,
+.product-detailed .fa.fa-phone,
+.product-detailed .fa.fa-envelope-o{
+    font-size:2em;
+    margin-right:10px;
+    color:#ee202d;
+}
+
+h3.product-title,
+.product-description-title,
+.store-name{
+    font-family: 'Oswald';
+    margin:10px 0;
+}
+
+.store-adress,
+.store-phone,
+.store-mail{
+    font-weight:normal;
+    text-transform: uppercase;
+
+}
+
+a.request{
+    color:#ee202d;
+}
+
+
+
